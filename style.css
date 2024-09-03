@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(67, 223, 145);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    max-height: 400px;
+
+}
+
+.square{
+    flex: 1 1 auto;
+    border: 1px solid rgb(250, 34, 34);
+    width: 25px;
+    height: 25px;
+    background: rgb(173, 165, 248);
+}
