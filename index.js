@@ -27,6 +27,7 @@ function generateGrid(size) {
         grid.appendChild(sq);
 
         sq.addEventListener("mouseenter", () => {
+            
             sq.style.background = 'white';
         });
        
